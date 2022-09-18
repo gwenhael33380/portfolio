@@ -48,7 +48,7 @@ const Home = () => {
                 bottom: 250,
               }}
             >
-              FS AGENCY
+              DEV-EVENTS
             </motion.h1>
             <motion.h2
               drag

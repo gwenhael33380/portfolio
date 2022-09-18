@@ -92,7 +92,13 @@
         @media screen and (min-width: 1200px){
           font-size: 5rem;
         }
+       
       }
+    }
+    .font-name{
+      font-family: $font-3;
+      font-size: 3.5rem;
+      padding: 10px;
     }
   }
 }

@@ -6,9 +6,14 @@
   font-family: "font-2";
   src: url(../assets/fonts/Michroma-Regular.ttf);
 }
+@font-face {
+  font-family: "font-3";
+  src: url(../assets/fonts/GreatVibes-Regular.ttf);
+}
 
 $font-1: "font-1", sans-serif;
 $font-2: "font-2", serif;
+$font-3: "font-3", serif;
 
 $color-1: #fafeff;
 $color-2: #00c1ec;
