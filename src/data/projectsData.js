@@ -1,11 +1,11 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Casta",
-    date: "Janvier 2020",
-    languages: ["React", "Php", "Sass"],
+    title: "Buffy Project",
+    date: "Mai 2022",
+    languages: ["PHP natif", "Sass", "MySQL"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "Buffy Project à été pensé en concu en PHP procédural. Le projet ce décline sous la forme d'un blog et à été développer pour pour répondre aux exienges d'un examen, mais aussi par passion. Le projet compte 4 CRUD opérationel.",
     img: "./assets/img/projet-2.jpg",
     link: "http://www.google.com",
   },

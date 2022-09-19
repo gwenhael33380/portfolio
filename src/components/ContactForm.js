@@ -1,7 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { init } from "@emailjs/browser";
+
 init(process.env.ID);
+
 
 const ContactForm = () => {
   const form = useRef();
@@ -12,8 +14,8 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "service_y4q20km",
-        "template_5ni7fmu",
+        "service_bqg1ljm",
+        "template_igssdwn",
         form.current,
         process.env.REACT_APP_ID
       )

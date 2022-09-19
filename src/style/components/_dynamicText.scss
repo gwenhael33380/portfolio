@@ -1,11 +1,10 @@
 .dynamic-text {
   position: relative;
   display: flex;
+  right: 19%;
 
   #text-target {
- 
-
-    display: flex;
+     display: flex;
     width: 300px;
     text-align: left;
     animation: color 30s alternate infinite;
@@ -17,13 +16,16 @@
   }
   @keyframes color {
     0% {
-      color: blue;
+      color: rgb(69, 69, 221);
+    }
+    25% { 
+      color: rgb(42, 193, 219);
     }
     50% {
-      color: #ec006e;
+      color: rgb(69, 69, 221);
     }
     100% {
-      color: blue;
+      color:  #be272f;
     }
   }
   .letter {

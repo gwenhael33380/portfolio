@@ -38,20 +38,20 @@ const Contact = () => {
           <div className="address">
             <div className="content">
               <h4>adresse</h4>
-              <p>12 rue Laplace</p>
-              <p>64200 Biarritz</p>
+              <p>Marcheprime</p>
+              <p>33380</p>
             </div>
           </div>
           <div className="phone">
             <div className="content">
               <h4>téléphone</h4>
-              <CopyToClipboard text="0642844284" className="hover">
+              <CopyToClipboard text="0750895943" className="hover">
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard"
                   onClick={() => alert("Téléphone copié !")}
                 >
-                  06 42 84 42 84
+                  07 50 89 59 43
                 </p>
               </CopyToClipboard>
             </div>
@@ -59,20 +59,20 @@ const Contact = () => {
           <div className="email">
             <div className="content">
               <h4>email</h4>
-              <CopyToClipboard text="fsagency@gmail.com" className="hover">
+              <CopyToClipboard text="le.corre.gwen.hael@gmail.com" className="hover">
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard"
                   onClick={() => alert("Email copié !")}
                 >
-                  fsagency@gmail.com
+                  le.corre.gwen.hael@gmail.com
                 </p>
               </CopyToClipboard>
             </div>
           </div>
           <SocialNetwork />
           <div className="credits">
-            <p>From Scratch - 2022</p>
+            <p>Le Corre Gwen-Haël | Dev-Events - 2022</p>
           </div>
         </div>
         <Buttons left={"/projet-4"} />
