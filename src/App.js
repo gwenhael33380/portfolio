@@ -7,6 +7,7 @@ import Project1 from "./pages/Project1";
 import Project2 from "./pages/Project2";
 import Project3 from "./pages/Project3";
 import Project4 from "./pages/Project4";
+import LegalMotion from "./pages/LegalMotion";
 import { AnimatePresence } from "framer-motion";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/projet-3" element={<Project3 />} />
           <Route path="/projet-4" element={<Project4 />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/legal_motion" element={<LegalMotion />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </AnimatePresence>

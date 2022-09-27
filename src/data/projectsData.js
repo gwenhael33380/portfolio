@@ -6,7 +6,7 @@ export const projectsData = [
     languages: ["PHP natif", "Sass", "MySQL"],
     infos:
       "Buffy Project à été pensé en concu en PHP procédural. Le projet ce décline sous la forme d'un blog et à été développer pour pour répondre aux exienges d'un examen, mais aussi par passion. Le projet compte 4 CRUD opérationel.",
-    img: "./assets/img/projet-2.jpg",
+    img: "./assets/img/buffyproject.png",
     link: "http://www.google.com",
   },
   {

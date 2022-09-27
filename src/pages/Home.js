@@ -5,6 +5,7 @@ import Mouse from "../components/Mouse";
 import Navigation from "../components/Navigation";
 import SocialNetwork from "../components/SocialNetwork";
 import { motion } from "framer-motion";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const variants = {
@@ -35,6 +36,7 @@ const Home = () => {
         variants={variants}
       >
         <Navigation />
+        
         <SocialNetwork />
         <div className="home-main">
           <div className="main-content">
@@ -66,6 +68,11 @@ const Home = () => {
         </div>
         <Buttons right={"/projet-1"} />
       </motion.div>
+      <div>
+        <Footer />
+      </div>
+          
+
     </div>
   );
 };
