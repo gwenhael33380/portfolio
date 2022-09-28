@@ -1,24 +1,30 @@
 
      
 .footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: $color-5;
     color: white;
     position: absolute;
     width: 100%;
-    height: 120px;
-    bottom: 0;
+    bottom: -184px; 
+    transition: 1s;
+    height: 169px;
+}
+
+.active_footer{
+   
+    bottom: -18px;
 }
 
 .content_arrow{
     position: absolute;
-    top: -50px;
+    top: -65px;
     right: 50%;
-    transform: rotate(-180deg);
- &:hover{
-    animation: inherit;
     transition: .5s;
-    transform: rotate(-360deg);
-  }
+    transform: rotate(-180deg);
 }
 
 .param_arrow{
@@ -56,4 +62,19 @@
             transform: translateY(-6.4px);
         }
     }
+}
+
+.color_legal_motion{
+    color: white;
+    padding-top: 15px;
+    transition: .5s;
+    &:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+    }
+}
+
+.copyright_content{
+    padding-top: 30px;
+    padding-bottom: 5px;
 }

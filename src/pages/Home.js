@@ -26,7 +26,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className="content">
       <Mouse />
       <motion.div
         className="home"
